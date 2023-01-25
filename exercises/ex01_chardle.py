@@ -32,4 +32,7 @@ if five_word[3] == single_letter:
 if five_word[4] == single_letter:
     print(single_letter + " found at index 4")
     count = count + 1
-print(str(count) + " instances of " + single_letter + " found in " + five_word)
+if count != 0:
+    print(str(count) + " instances of " + single_letter + " found in " + five_word)
+else:
+    print("No instances of " + single_letter + " found in " + five_word)
